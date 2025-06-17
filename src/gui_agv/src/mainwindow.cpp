@@ -363,3 +363,26 @@ void MainWindow::start_slam()
     slam_process->setArguments(slam_args);
     slam_process->start();
 }
+
+void MainWindow::quit_slam()
+{
+    // Tạo tiến trình để lấy PID từ lệnh ps + grep + awk
+    QProcess find_pid;
+    // awk '{print $1}': in ra cot dau tien (process id cua slamtoolbox)
+    find_pid.start("bash", QStringList() << "-c" << "ps -eo pid,command | grep slam_toolbox | grep -v grep | awk '{print $1}'");
+    find_pid.waitForFinished();
+    
+    QString pid_str = QString(find_pid.readAllStandardOutput()).trimmed();
+
+    if (!pid_str.isEmpty())
+    {
+        qDebug() << "Found PID:" << pid_str;
+
+        // Gửi SIGINT đến PID đã tìm
+        QProcess::execute("kill", QStringList() << "-SIGINT" << pid_str);
+    }
+    else
+    {
+        qDebug() << "slam_toolbox not running or PID not found.";
+    }
+}
