@@ -783,52 +783,6 @@ CMakeFiles/gui_agv.dir/src/main.cpp.o: \
  /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /opt/ros/humble/include/rviz_rendering/rviz_rendering/render_window.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QWindow \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSceneNode.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreNode.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMatrix4.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMatrix3.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreRenderable.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreCommon.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMurmurHash3.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgram.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreResource.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAtomicScalar.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreStringInterface.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadHeaders.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadDefines.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadDefinesNone.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgramParams.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSharedPtr.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreIteratorWrappers.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreIteratorWrapper.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSerializer.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAny.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMaterial.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreColourValue.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreBlendMode.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePlane.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAxisAlignedBox.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector4.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreException.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreString.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreUserObjectBindings.h \
- /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreRenderTargetListener.h \
- /opt/ros/humble/include/rviz_rendering/rviz_rendering/visibility_control.hpp \
- /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction.hpp \
- /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction_iface.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/visualization_manager.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h \
  /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
@@ -879,6 +833,7 @@ CMakeFiles/gui_agv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/tf2_ros/tf2_ros/qos.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/bit_allocator.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/display_context.hpp \
+ /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction_iface.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp \
  /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreQuaternion.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp \
@@ -898,6 +853,7 @@ CMakeFiles/gui_agv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
+ /opt/ros/humble/include/rviz_common/rviz_common/ros_integration/ros_node_abstraction.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/frame_manager_iface.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/transformation/transformation_manager.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/factory/factory.hpp \
@@ -950,6 +906,50 @@ CMakeFiles/gui_agv.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /opt/ros/humble/include/rviz_common/rviz_common/logging.hpp \
  /opt/ros/humble/include/rviz_rendering/rviz_rendering/logging_handler.hpp \
+ /opt/ros/humble/include/rviz_rendering/rviz_rendering/render_window.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QWindow \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSceneNode.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreNode.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMatrix4.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMatrix3.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector3.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreRenderable.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreCommon.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMurmurHash3.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgram.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreResource.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAtomicScalar.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreStringInterface.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadHeaders.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadDefines.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/Threading/OgreThreadDefinesNone.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreGpuProgramParams.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSharedPtr.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreIteratorWrappers.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreIteratorWrapper.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreSerializer.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAny.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreMaterial.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreColourValue.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreBlendMode.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgrePlane.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreAxisAlignedBox.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreVector4.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreException.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreString.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreUserObjectBindings.h \
+ /opt/ros/humble/opt/rviz_ogre_vendor/include/OGRE/OgreRenderTargetListener.h \
+ /opt/ros/humble/include/rviz_rendering/rviz_rendering/visibility_control.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/window_manager_interface.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
@@ -1027,4 +1027,9 @@ CMakeFiles/gui_agv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/bool.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__type_support.hpp

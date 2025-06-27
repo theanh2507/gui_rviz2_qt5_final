@@ -72,7 +72,7 @@ public:
     QPushButton *pushButton_4;
     QWidget *tab_2;
     QWidget *layoutWidget1;
-    QVBoxLayout *verticalLayout_17;
+    QVBoxLayout *verticalLayout_20;
     QVBoxLayout *verticalLayout_8;
     QHBoxLayout *horizontalLayout_8;
     QLabel *label_4;
@@ -90,13 +90,17 @@ public:
     QPushButton *pushButton_12;
     QPushButton *pushButton_13;
     QSpacerItem *verticalSpacer_3;
-    QHBoxLayout *horizontalLayout_13;
+    QHBoxLayout *horizontalLayout_24;
     QVBoxLayout *verticalLayout_15;
     QPushButton *pushButton_14;
     QPushButton *pushButton_15;
+    QVBoxLayout *verticalLayout_17;
     QHBoxLayout *horizontalLayout_12;
     QPushButton *pushButton_20;
     QPushButton *pushButton_6;
+    QHBoxLayout *horizontalLayout_13;
+    QPushButton *pushButton_27;
+    QPushButton *pushButton_28;
     QWidget *tab_3;
     QWidget *layoutWidget2;
     QHBoxLayout *horizontalLayout_17;
@@ -122,7 +126,7 @@ public:
     QListWidget *listWidget;
     QPushButton *pushButton_18;
     QWidget *tab_4;
-    QWidget *widget;
+    QWidget *layoutWidget4;
     QVBoxLayout *verticalLayout_19;
     QHBoxLayout *horizontalLayout_23;
     QVBoxLayout *verticalLayout_18;
@@ -152,7 +156,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1151, 881);
+        MainWindow->resize(1151, 869);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout_14 = new QVBoxLayout(centralwidget);
@@ -181,7 +185,7 @@ public:
 
         horizontalLayout->addWidget(label);
 
-        horizontalSpacer = new QSpacerItem(338, 20, QSizePolicy::Preferred, QSizePolicy::Minimum);
+        horizontalSpacer = new QSpacerItem(798, 20, QSizePolicy::Preferred, QSizePolicy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer);
 
@@ -251,7 +255,7 @@ public:
         scrollArea_2->setWidgetResizable(true);
         scrollAreaWidgetContents_2 = new QWidget();
         scrollAreaWidgetContents_2->setObjectName(QString::fromUtf8("scrollAreaWidgetContents_2"));
-        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 558, 672));
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 558, 660));
         tabWidget = new QTabWidget(scrollAreaWidgetContents_2);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabWidget->setGeometry(QRect(0, 0, 561, 341));
@@ -309,10 +313,10 @@ public:
         tab_2->setObjectName(QString::fromUtf8("tab_2"));
         layoutWidget1 = new QWidget(tab_2);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(80, 30, 379, 247));
-        verticalLayout_17 = new QVBoxLayout(layoutWidget1);
-        verticalLayout_17->setObjectName(QString::fromUtf8("verticalLayout_17"));
-        verticalLayout_17->setContentsMargins(0, 0, 0, 0);
+        layoutWidget1->setGeometry(QRect(82, 32, 379, 251));
+        verticalLayout_20 = new QVBoxLayout(layoutWidget1);
+        verticalLayout_20->setObjectName(QString::fromUtf8("verticalLayout_20"));
+        verticalLayout_20->setContentsMargins(0, 0, 0, 0);
         verticalLayout_8 = new QVBoxLayout();
         verticalLayout_8->setObjectName(QString::fromUtf8("verticalLayout_8"));
         horizontalLayout_8 = new QHBoxLayout();
@@ -394,14 +398,14 @@ public:
         verticalLayout_8->addLayout(horizontalLayout_11);
 
 
-        verticalLayout_17->addLayout(verticalLayout_8);
+        verticalLayout_20->addLayout(verticalLayout_8);
 
         verticalSpacer_3 = new QSpacerItem(138, 28, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout_17->addItem(verticalSpacer_3);
+        verticalLayout_20->addItem(verticalSpacer_3);
 
-        horizontalLayout_13 = new QHBoxLayout();
-        horizontalLayout_13->setObjectName(QString::fromUtf8("horizontalLayout_13"));
+        horizontalLayout_24 = new QHBoxLayout();
+        horizontalLayout_24->setObjectName(QString::fromUtf8("horizontalLayout_24"));
         verticalLayout_15 = new QVBoxLayout();
         verticalLayout_15->setObjectName(QString::fromUtf8("verticalLayout_15"));
         pushButton_14 = new QPushButton(layoutWidget1);
@@ -415,8 +419,10 @@ public:
         verticalLayout_15->addWidget(pushButton_15);
 
 
-        horizontalLayout_13->addLayout(verticalLayout_15);
+        horizontalLayout_24->addLayout(verticalLayout_15);
 
+        verticalLayout_17 = new QVBoxLayout();
+        verticalLayout_17->setObjectName(QString::fromUtf8("verticalLayout_17"));
         horizontalLayout_12 = new QHBoxLayout();
         horizontalLayout_12->setObjectName(QString::fromUtf8("horizontalLayout_12"));
         pushButton_20 = new QPushButton(layoutWidget1);
@@ -430,10 +436,28 @@ public:
         horizontalLayout_12->addWidget(pushButton_6);
 
 
-        horizontalLayout_13->addLayout(horizontalLayout_12);
+        verticalLayout_17->addLayout(horizontalLayout_12);
+
+        horizontalLayout_13 = new QHBoxLayout();
+        horizontalLayout_13->setObjectName(QString::fromUtf8("horizontalLayout_13"));
+        pushButton_27 = new QPushButton(layoutWidget1);
+        pushButton_27->setObjectName(QString::fromUtf8("pushButton_27"));
+
+        horizontalLayout_13->addWidget(pushButton_27);
+
+        pushButton_28 = new QPushButton(layoutWidget1);
+        pushButton_28->setObjectName(QString::fromUtf8("pushButton_28"));
+
+        horizontalLayout_13->addWidget(pushButton_28);
 
 
         verticalLayout_17->addLayout(horizontalLayout_13);
+
+
+        horizontalLayout_24->addLayout(verticalLayout_17);
+
+
+        verticalLayout_20->addLayout(horizontalLayout_24);
 
         tabWidget->addTab(tab_2, QString());
         tab_3 = new QWidget();
@@ -553,10 +577,10 @@ public:
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
-        widget = new QWidget(tab_4);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(74, 56, 424, 135));
-        verticalLayout_19 = new QVBoxLayout(widget);
+        layoutWidget4 = new QWidget(tab_4);
+        layoutWidget4->setObjectName(QString::fromUtf8("layoutWidget4"));
+        layoutWidget4->setGeometry(QRect(74, 56, 424, 135));
+        verticalLayout_19 = new QVBoxLayout(layoutWidget4);
         verticalLayout_19->setObjectName(QString::fromUtf8("verticalLayout_19"));
         verticalLayout_19->setContentsMargins(0, 0, 0, 0);
         horizontalLayout_23 = new QHBoxLayout();
@@ -565,12 +589,12 @@ public:
         verticalLayout_18->setObjectName(QString::fromUtf8("verticalLayout_18"));
         horizontalLayout_19 = new QHBoxLayout();
         horizontalLayout_19->setObjectName(QString::fromUtf8("horizontalLayout_19"));
-        pushButton_5 = new QPushButton(widget);
+        pushButton_5 = new QPushButton(layoutWidget4);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
 
         horizontalLayout_19->addWidget(pushButton_5);
 
-        pushButton_24 = new QPushButton(widget);
+        pushButton_24 = new QPushButton(layoutWidget4);
         pushButton_24->setObjectName(QString::fromUtf8("pushButton_24"));
 
         horizontalLayout_19->addWidget(pushButton_24);
@@ -580,12 +604,12 @@ public:
 
         horizontalLayout_22 = new QHBoxLayout();
         horizontalLayout_22->setObjectName(QString::fromUtf8("horizontalLayout_22"));
-        pushButton_25 = new QPushButton(widget);
+        pushButton_25 = new QPushButton(layoutWidget4);
         pushButton_25->setObjectName(QString::fromUtf8("pushButton_25"));
 
         horizontalLayout_22->addWidget(pushButton_25);
 
-        pushButton_26 = new QPushButton(widget);
+        pushButton_26 = new QPushButton(layoutWidget4);
         pushButton_26->setObjectName(QString::fromUtf8("pushButton_26"));
 
         horizontalLayout_22->addWidget(pushButton_26);
@@ -600,12 +624,12 @@ public:
         verticalLayout_16->setObjectName(QString::fromUtf8("verticalLayout_16"));
         horizontalLayout_20 = new QHBoxLayout();
         horizontalLayout_20->setObjectName(QString::fromUtf8("horizontalLayout_20"));
-        label_8 = new QLabel(widget);
+        label_8 = new QLabel(layoutWidget4);
         label_8->setObjectName(QString::fromUtf8("label_8"));
 
         horizontalLayout_20->addWidget(label_8);
 
-        lineEdit = new QLineEdit(widget);
+        lineEdit = new QLineEdit(layoutWidget4);
         lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
 
         horizontalLayout_20->addWidget(lineEdit);
@@ -615,12 +639,12 @@ public:
 
         horizontalLayout_21 = new QHBoxLayout();
         horizontalLayout_21->setObjectName(QString::fromUtf8("horizontalLayout_21"));
-        label_9 = new QLabel(widget);
+        label_9 = new QLabel(layoutWidget4);
         label_9->setObjectName(QString::fromUtf8("label_9"));
 
         horizontalLayout_21->addWidget(label_9);
 
-        comboBox_3 = new QComboBox(widget);
+        comboBox_3 = new QComboBox(layoutWidget4);
         comboBox_3->addItem(QString());
         comboBox_3->addItem(QString());
         comboBox_3->addItem(QString());
@@ -642,7 +666,7 @@ public:
 
         verticalLayout_19->addItem(verticalSpacer_4);
 
-        label_10 = new QLabel(widget);
+        label_10 = new QLabel(layoutWidget4);
         label_10->setObjectName(QString::fromUtf8("label_10"));
 
         verticalLayout_19->addWidget(label_10);
@@ -660,7 +684,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 559, 674));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 559, 662));
         scrollArea->setWidget(scrollAreaWidgetContents);
 
         horizontalLayout_18->addWidget(scrollArea);
@@ -688,7 +712,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -722,6 +746,8 @@ public:
         pushButton_15->setText(QCoreApplication::translate("MainWindow", "3D", nullptr));
         pushButton_20->setText(QCoreApplication::translate("MainWindow", "SET INITIAL POSE", nullptr));
         pushButton_6->setText(QCoreApplication::translate("MainWindow", "NAV2", nullptr));
+        pushButton_27->setText(QCoreApplication::translate("MainWindow", "Select multiple point", nullptr));
+        pushButton_28->setText(QCoreApplication::translate("MainWindow", "Move", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("MainWindow", "Tab 2", nullptr));
         label_7->setText(QCoreApplication::translate("MainWindow", "Status:", nullptr));
         label_6->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
@@ -737,7 +763,7 @@ public:
         pushButton_22->setText(QCoreApplication::translate("MainWindow", "Remove", nullptr));
         pushButton_23->setText(QCoreApplication::translate("MainWindow", "Remove All", nullptr));
         pushButton_21->setText(QCoreApplication::translate("MainWindow", "Move", nullptr));
-        pushButton_16->setText(QCoreApplication::translate("MainWindow", "Cancel", nullptr));
+        pushButton_16->setText(QCoreApplication::translate("MainWindow", "Pause", nullptr));
         pushButton_17->setText(QCoreApplication::translate("MainWindow", "Resume", nullptr));
         pushButton_18->setText(QCoreApplication::translate("MainWindow", "Finish", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QCoreApplication::translate("MainWindow", "Page", nullptr));

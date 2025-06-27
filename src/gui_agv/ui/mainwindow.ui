@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1151</width>
-    <height>881</height>
+    <height>869</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -45,7 +45,7 @@
           </property>
           <property name="sizeHint" stdset="0">
            <size>
-            <width>338</width>
+            <width>798</width>
             <height>20</height>
            </size>
           </property>
@@ -138,7 +138,7 @@
                <x>0</x>
                <y>0</y>
                <width>558</width>
-               <height>672</height>
+               <height>660</height>
               </rect>
              </property>
              <widget class="QTabWidget" name="tabWidget">
@@ -154,7 +154,7 @@
                <enum>QTabWidget::Triangular</enum>
               </property>
               <property name="currentIndex">
-               <number>2</number>
+               <number>3</number>
               </property>
               <widget class="QWidget" name="tab">
                <attribute name="title">
@@ -227,13 +227,13 @@
                <widget class="QWidget" name="layoutWidget">
                 <property name="geometry">
                  <rect>
-                  <x>80</x>
-                  <y>30</y>
+                  <x>82</x>
+                  <y>32</y>
                   <width>379</width>
-                  <height>247</height>
+                  <height>251</height>
                  </rect>
                 </property>
-                <layout class="QVBoxLayout" name="verticalLayout_17">
+                <layout class="QVBoxLayout" name="verticalLayout_20">
                  <item>
                   <layout class="QVBoxLayout" name="verticalLayout_8">
                    <item>
@@ -362,7 +362,7 @@
                   </spacer>
                  </item>
                  <item>
-                  <layout class="QHBoxLayout" name="horizontalLayout_13">
+                  <layout class="QHBoxLayout" name="horizontalLayout_24">
                    <item>
                     <layout class="QVBoxLayout" name="verticalLayout_15">
                      <item>
@@ -382,20 +382,42 @@
                     </layout>
                    </item>
                    <item>
-                    <layout class="QHBoxLayout" name="horizontalLayout_12">
+                    <layout class="QVBoxLayout" name="verticalLayout_17">
                      <item>
-                      <widget class="QPushButton" name="pushButton_20">
-                       <property name="text">
-                        <string>SET INITIAL POSE</string>
-                       </property>
-                      </widget>
+                      <layout class="QHBoxLayout" name="horizontalLayout_12">
+                       <item>
+                        <widget class="QPushButton" name="pushButton_20">
+                         <property name="text">
+                          <string>SET INITIAL POSE</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="pushButton_6">
+                         <property name="text">
+                          <string>NAV2</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
                      </item>
                      <item>
-                      <widget class="QPushButton" name="pushButton_6">
-                       <property name="text">
-                        <string>NAV2</string>
-                       </property>
-                      </widget>
+                      <layout class="QHBoxLayout" name="horizontalLayout_13">
+                       <item>
+                        <widget class="QPushButton" name="pushButton_27">
+                         <property name="text">
+                          <string>Select multiple point</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="pushButton_28">
+                         <property name="text">
+                          <string>Move</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
                      </item>
                     </layout>
                    </item>
@@ -543,7 +565,7 @@
                        <item>
                         <widget class="QPushButton" name="pushButton_16">
                          <property name="text">
-                          <string>Cancel</string>
+                          <string>Pause</string>
                          </property>
                         </widget>
                        </item>
@@ -581,7 +603,7 @@
                <attribute name="title">
                 <string>Page</string>
                </attribute>
-               <widget class="QWidget" name="">
+               <widget class="QWidget" name="layoutWidget">
                 <property name="geometry">
                  <rect>
                   <x>74</x>
@@ -728,7 +750,7 @@
              <x>0</x>
              <y>0</y>
              <width>559</width>
-             <height>674</height>
+             <height>662</height>
             </rect>
            </property>
           </widget>
